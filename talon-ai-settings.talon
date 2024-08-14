@@ -2,15 +2,15 @@
 # To make changes, copy this into your user directory and remove the .example extension
 
 settings():
-    # user.model_temperature = 0.6
+    user.model_temperature = 0.6
 
     # Works with any API with the same schema as OpenAI's (i.e. Azure, llamafiles, etc.)
-    # user.model_endpoint = "https://api.openai.com/v1/chat/completions"
+    user.model_endpoint = "https://api.openai.com/v1/chat/completions"
 
-    # user.model_system_prompt = "You are an assistant helping an office worker to be more productive."
+    user.model_system_prompt = "You are an assistant helping an office worker to be more productive."
 
     # Change to 'gpt-4' or the model of your choice
-    # user.openai_model = 'gpt-3.5-turbo'
+    user.openai_model = 'gpt-4o-mini'
 
 # Only uncomment the line below if you want experimental behavior to parse Talon files
 # tag(): user.gpt_beta
